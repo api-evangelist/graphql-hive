@@ -1,11 +1,10 @@
 aid: graphql-hive
 name: GraphQL Hive
-description: >-
-  GraphQL Hive is an open-source GraphQL schema registry and observability
-  platform developed by The Guild. It provides a REST and GraphQL API for
-  schema publishing, validation, usage tracking, breaking change detection,
-  and analytics for GraphQL federation and other GraphQL APIs. Available as
-  a managed cloud service or self-hosted deployment.
+description: GraphQL Hive is an open-source GraphQL schema registry and observability
+  platform developed by The Guild. It provides a REST and GraphQL API for schema publishing,
+  validation, usage tracking, breaking change detection, and analytics for GraphQL
+  federation and other GraphQL APIs. Available as a managed cloud service or self-hosted
+  deployment.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/graphql-hive/refs/heads/main/apis.yml
 created: '2026-06-13'
@@ -13,67 +12,68 @@ modified: '2026-06-13'
 specificationVersion: '0.19'
 type: Index
 tags:
+- GraphQL
+- Schema Registry
+- API Observability
+- Breaking Change Detection
+- Federation
+- Open Source
+- Developer Tools
+apis:
+- aid: graphql-hive:graphql-hive-graphql-api
+  name: GraphQL Hive Console GraphQL API
+  description: The public GraphQL API for Hive Console allows developers to build
+    custom workflows, administer users and access tokens, retrieve usage metrics,
+    manage schema registries, publish schemas, validate compatibility, and track breaking
+    changes programmatically without the CLI. Authentication uses Bearer tokens with
+    the hvo1/ prefix format.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  baseURL: https://api.graphql-hive.com/graphql
+  humanURL: https://the-guild.dev/graphql/hive/docs/graphql-api/access-token-management
+  contact:
+  - FN: GraphQL Hive Support
+    url: https://github.com/graphql-hive/console/issues
+  tags:
   - GraphQL
   - Schema Registry
-  - API Observability
+  - Observability
+  - Usage Tracking
   - Breaking Change Detection
-  - Federation
-  - Open Source
-  - Developer Tools
-apis:
-  - aid: graphql-hive:graphql-hive-graphql-api
-    name: GraphQL Hive Console GraphQL API
-    description: >-
-      The public GraphQL API for Hive Console allows developers to build custom
-      workflows, administer users and access tokens, retrieve usage metrics,
-      manage schema registries, publish schemas, validate compatibility, and
-      track breaking changes programmatically without the CLI. Authentication
-      uses Bearer tokens with the hvo1/ prefix format.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.graphql-hive.com/graphql
-    humanURL: https://the-guild.dev/graphql/hive/docs/graphql-api/access-token-management
-    contact:
-      - FN: GraphQL Hive Support
-        url: https://github.com/graphql-hive/console/issues
-    tags:
-      - GraphQL
-      - Schema Registry
-      - Observability
-      - Usage Tracking
-      - Breaking Change Detection
-    properties:
-      - type: Documentation
-        url: https://the-guild.dev/graphql/hive/docs
-      - type: APIReference
-        url: https://the-guild.dev/graphql/hive/docs/api-reference/cli
-      - type: GraphQLEndpoint
-        url: https://api.graphql-hive.com/graphql
-      - type: OpenAPI
-        url: https://the-guild.dev/graphql/hive/docs/graphql-api/access-token-management
-    overlays: []
-common:
-  - type: Website
-    url: https://the-guild.dev/graphql/hive
+  properties:
   - type: Documentation
     url: https://the-guild.dev/graphql/hive/docs
-  - type: GitHubOrg
-    url: https://github.com/graphql-hive
-  - type: LinkedIn
-    url: https://linkedin.com/company/the-guild-software
-  - type: Blog
-    url: https://the-guild.dev/graphql/hive/blog
-  - type: Pricing
-    url: https://the-guild.dev/graphql/hive/pricing
-  - type: StatusPage
-    url: https://status.graphql-hive.com/
-  - type: X
-    url: https://twitter.com/TheGuildDev
-  - type: Plans
-    url: plans/graphql-hive-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/graphql-hive-rate-limits.yml
-  - type: FinOps
-    url: finops/graphql-hive-finops.yml
+  - type: APIReference
+    url: https://the-guild.dev/graphql/hive/docs/api-reference/cli
+  - type: GraphQLEndpoint
+    url: https://api.graphql-hive.com/graphql
+  - type: OpenAPI
+    url: https://the-guild.dev/graphql/hive/docs/graphql-api/access-token-management
+  - url: graphql/graphql-hive-graphql.md
+    type: GraphQL
+  overlays: []
+common:
+- type: Website
+  url: https://the-guild.dev/graphql/hive
+- type: Documentation
+  url: https://the-guild.dev/graphql/hive/docs
+- type: GitHubOrg
+  url: https://github.com/graphql-hive
+- type: LinkedIn
+  url: https://linkedin.com/company/the-guild-software
+- type: Blog
+  url: https://the-guild.dev/graphql/hive/blog
+- type: Pricing
+  url: https://the-guild.dev/graphql/hive/pricing
+- type: StatusPage
+  url: https://status.graphql-hive.com/
+- type: X
+  url: https://twitter.com/TheGuildDev
+- type: Plans
+  url: plans/graphql-hive-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/graphql-hive-rate-limits.yml
+- type: FinOps
+  url: finops/graphql-hive-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
