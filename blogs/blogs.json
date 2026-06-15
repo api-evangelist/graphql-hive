@@ -1,7 +1,7 @@
 {
   "provider": "graphql-hive",
   "url": "https://the-guild.dev/graphql/hive/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "The Guild has acquired Grafbase",
@@ -213,5 +213,16 @@
       "author": "Denis Badurina",
       "category": "product-update"
     }
-  ]
+  ],
+  "repo": "graphql-hive",
+  "feeds": [
+    {
+      "source": "https://linkedin.com/company/the-guild-software",
+      "feed_url": "https://linkedin.com/company/the-guild-software",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
