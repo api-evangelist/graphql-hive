@@ -5,7 +5,7 @@ description: GraphQL Hive is an open-source GraphQL schema registry and observab
   validation, usage tracking, breaking change detection, and analytics for GraphQL
   federation and other GraphQL APIs. Available as a managed cloud service or self-hosted
   deployment.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/graphql-hive/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -27,7 +27,7 @@ apis:
     manage schema registries, publish schemas, validate compatibility, and track breaking
     changes programmatically without the CLI. Authentication uses Bearer tokens with
     the hvo1/ prefix format.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   baseURL: https://api.graphql-hive.com/graphql
   humanURL: https://the-guild.dev/graphql/hive/docs/graphql-api/access-token-management
   contact:
