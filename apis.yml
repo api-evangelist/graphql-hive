@@ -52,6 +52,8 @@ apis:
     type: GraphQL
   overlays: []
 common:
+- type: DomainSecurity
+  url: security/graphql-hive-domain-security.yml
 - type: Website
   url: https://the-guild.dev/graphql/hive
 - type: Documentation
