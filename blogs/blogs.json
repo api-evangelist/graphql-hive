@@ -10,12 +10,9 @@
     },
     {
       "source": "https://linkedin.com/company/the-guild-software",
-      "feed_url": "https://linkedin.com/company/the-guild-software",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 1
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 50
 }
